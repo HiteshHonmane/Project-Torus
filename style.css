@@ -789,4 +789,47 @@ li {
         margin-top: 50px;
 
     }
+
+    .num2 {
+        
+            margin-top: -165px;
+            font-size: 137px;
+            position: relative;
+            left: -88px;
+            margin-right: 23px;
+        
+    }
+
+    .focus1 {
+        color: var(--Gray-1, #333);
+        font-family: Roboto;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        width: 300px;
+        position: relative;
+        top: -185px;
+        height: 144px;
+        left: 90px;
+    }
+
+    .focus2 {
+        color: var(--Gray-1, #333);
+        font-family: Roboto;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        width: 300px;
+        position: relative;
+        top: -185px;
+        height: 144px;
+        left: 90px;
+    }
+
+
+
+
+
 }
