@@ -58,6 +58,7 @@ li {
     width: 100vw;
     display: flex;
     position: absolute;
+    top: 0px;
     justify-content: space-around;
     align-items: center;
     object-fit: contain;
