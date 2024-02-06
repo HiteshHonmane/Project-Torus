@@ -4,6 +4,7 @@
 
 }
 
+
 :root {
     --btncolor: rgb(208, 208, 208);
 }
@@ -23,7 +24,53 @@ nav {
 
 }
 
-.logo img {
+
+
+/* navbar for mobile screen */ 
+
+@media (max-width:600px){
+    
+   /* .body{
+    overflow: hidden;
+   } */
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: -100%;
+        top: 0px;
+        box-shadow: 2px 0px 20px 4px #b3b3b3;
+        height: 72vh ;
+        align-items: center;
+        z-index: 1;
+        width: 58vw;
+        background: white;
+        border-radius: 20px 0px 20px 20px;
+        transition: ease-in 0.4s;
+        
+    }
+    .navbartags{
+        margin-top: 20px;
+    }
+
+    .hamburger {
+        position: absolute;
+        z-index: 1;
+        padding: 0px 15px;
+        width: 32px;
+        /* height: 15px; */
+        right: 0px;
+    }
+    .cross{
+        position: absolute;
+        left: 0px;
+        padding: 18px;
+    }
+
+    
+}
+
+.logo-img {
     width: 70.552px;
     height: 41.527px;
     flex-shrink: 0;
@@ -48,8 +95,11 @@ a {
     text-transform: uppercase;
 }
 
-
+a{
+    cursor: pointer;
+}
 li {
+    cursor: pointer;
     list-style: none;
 }
 
@@ -1593,8 +1643,12 @@ footer {
         width: 80vw;
     
     }
+   
+
+    
 
 
 
     
 }
+
